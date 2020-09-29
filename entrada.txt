@@ -1,0 +1,95 @@
+idUno = 3 + 2 FIN
+
+idDos = 12 + idUno FIN
+
+ESCRIBIR "<html>" FIN
+	ESCRIBIR "<head>" FIN
+		ESCRIBIR "<title>ESTA ES UN DOCUMENTO HTML</TITLE>" FIN
+	ESCRIBIR "</head>" FIN
+
+	ASIGNAR = (idUno + 4) * (3 + 2) FIN
+
+	otraAsignacion = ASIGNAR * (12 + idDos * (12 + idUno)) FIN
+
+	ESCRIBIR "<body>" FIN
+		ESCRIBIR "<h1 style='color: blue'>Este es un titulo 1</h1>" FIN
+		ESCRIBIR "<p>Este es un parrafo</p>" FIN
+		ESCRIBIR "<h2>Tabla</h2>" FIN
+		
+
+		ESCRIBIR "<table>" FIN
+			ESCRIBIR "<tr>" FIN
+				ESCRIBIR "<th style='border: 1px solid gray;text-align: left;padding: 8px;'>COMPANIA</th>" FIN
+				ESCRIBIR "<th style='border: 1px solid gray;text-align: left;padding: 8px;'>CONTACTO</th>" FIN
+				ESCRIBIR "<th style='border: 1px solid gray;text-align: left;padding: 8px;'>CIUDAD</th>" FIN
+				ESCRIBIR "<th style='border: 1px solid gray;text-align: left;padding: 8px;'>PAIS</th>" FIN
+			ESCRIBIR "</tr>" FIN
+
+			REPETIR 3 INICIAR
+				ESCRIBIR "<tr>" FIN
+					ESCRIBIR "<td style='border: 1px solid gray;text-align: left;padding: 8px;'>Alfreds Futterkiste</td>" FIN
+					ESCRIBIR "<td style='border: 1px solid gray;text-align: left;padding: 8px;'>Maria Anders</td>" FIN
+					ESCRIBIR "<td style='border: 1px solid gray;text-align: left;padding: 8px;'>Xela</td>" FIN
+					ESCRIBIR "<td style='border: 1px solid gray;text-align: left;padding: 8px;'>Guatemala</td>" FIN
+				ESCRIBIR "</tr>" FIN
+			FIN
+
+			REPETIR 2 INICIAR
+				ESCRIBIR "<tr>" FIN
+					ESCRIBIR "<td style='border: 1px solid gray;text-align: left;padding: 8px;'>Centro comercial Moctezuma</td>" FIN
+					ESCRIBIR "<td style='border: 1px solid gray;text-align: left;padding: 8px;'>Francisco Chang</td>" FIN
+					ESCRIBIR "<td style='border: 1px solid gray;text-align: left;padding: 8px;'>Taxisco</td>" FIN
+					ESCRIBIR "<td style='border: 1px solid gray;text-align: left;padding: 8px;'>Mexico</td>" FIN
+				ESCRIBIR "</tr>" FIN
+			FIN
+
+			REPETIR 1 INICIAR
+				ESCRIBIR "<tr>" FIN
+					ESCRIBIR "<td style='border: 1px solid gray;text-align: left;padding: 8px;'>Ernst Handel</td>" FIN
+					ESCRIBIR "<td style='border: 1px solid gray;text-align: left;padding: 8px;'>Roland Mendel</td>" FIN
+					ESCRIBIR "<td style='border: 1px solid gray;text-align: left;padding: 8px;'>Buenos Aires</td>" FIN
+					ESCRIBIR "<td style='border: 1px solid gray;text-align: left;padding: 8px;'>Argentina</td>" FIN
+				ESCRIBIR "</tr>" FIN
+			FIN
+
+			REPETIR 2 INICIAR
+				ESCRIBIR "<tr>" FIN
+					ESCRIBIR "<td style='border: 1px solid gray;text-align: left;padding: 8px;'>Island Trading</td>" FIN
+					ESCRIBIR "<td style='border: 1px solid gray;text-align: left;padding: 8px;'>Helen Bennett</td>" FIN
+					ESCRIBIR "<td style='border: 1px solid gray;text-align: left;padding: 8px;'>Londres</td>" FIN
+					ESCRIBIR "<td style='border: 1px solid gray;text-align: left;padding: 8px;'>UK</td>" FIN
+				ESCRIBIR "</tr>" FIN
+			FIN
+
+			REPETIR 3 INICIAR
+				ESCRIBIR "<tr>" FIN
+					ESCRIBIR "<td style='border: 1px solid gray;text-align: left;padding: 8px;'>Laughing Bacchus Winecellars</td>" FIN
+					ESCRIBIR "<td style='border: 1px solid gray;text-align: left;padding: 8px;'>Yoshi Tannamuri</td>" FIN
+					ESCRIBIR "<td style='border: 1px solid gray;text-align: left;padding: 8px;'>Ontario</td>" FIN
+					ESCRIBIR "<td style='border: 1px solid gray;text-align: left;padding: 8px;'>Canada</td>" FIN
+				ESCRIBIR "</tr>" FIN
+			FIN
+
+			REPETIR 4 INICIAR
+				ESCRIBIR "<tr>" FIN
+					ESCRIBIR "<td style='border: 1px solid gray;text-align: left;padding: 8px;'>Magazzini Alimentari Riuniti</td>" FIN
+					ESCRIBIR "<td style='border: 1px solid gray;text-align: left;padding: 8px;'>Giovanni Rovelli</td>" FIN
+					ESCRIBIR "<td style='border: 1px solid gray;text-align: left;padding: 8px;'>Pizza</td>" FIN
+					ESCRIBIR "<td style='border: 1px solid gray;text-align: left;padding: 8px;'>Italia</td>" FIN
+				ESCRIBIR "</tr>" FIN
+			FIN
+
+		ESCRIBIR "</table>" FIN
+
+		SI VERDADERO ENTONCES
+			ESCRIBIR "<p>ES UNA CONDICIONAL VERDADERA</p>" FIN
+		FIN
+
+		SI FALSO ENTONCES
+			ESCRIBIR "<p>ESTO NO DEBE SER ESCRITO</p>" FIN
+		FIN
+
+	ESCRIBIR "</body>" FIN
+
+
+ESCRIBIR "</html>" FIN
